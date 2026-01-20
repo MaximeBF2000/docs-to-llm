@@ -5,8 +5,14 @@
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "docs-to-llm": "./bin/docs-to-llm"
+    "docs-to-llm": "bin/docs-to-llm"
   },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
