@@ -1,6 +1,6 @@
 {
   "name": "docs-to-llm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to crawl documentation websites and aggregate content into a structured llm.txt file",
   "type": "module",
   "main": "src/index.js",

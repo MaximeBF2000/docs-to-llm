@@ -8,6 +8,13 @@
 
 CLI tool to crawl documentation websites and aggregate content into a structured `llm.txt` file optimized for LLM consumption.
 
+<p align="left">
+  <a href="https://www.npmjs.com/package/docs-to-llm" target="_blank">
+    <img src="https://img.shields.io/npm/v/docs-to-llm?color=%23007ec6&label=npm%20package&logo=npm" alt="npm version" />
+  </a>
+</p>
+
+
 ## Features
 
 - Simple command-line interface

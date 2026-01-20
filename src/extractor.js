@@ -35,6 +35,7 @@ export function extractMainContent($root) {
 }
 
 export function cleanContent($content) {
+  $content.find('script, style').remove();
   for (const selector of SELECTORS_TO_REMOVE) {
     $content.find(selector).remove();
   }
